@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>060202</title>
+    <script src="http://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+        scroll-behavior: smooth;
+    }
+    </style>
+</head>
+<body>
+    <div class="bg-white fixed top-0 w-full left-0 flex justify-between items-center px-32 py-3">
+        <div class="font-bold text-3xl  text-yellow-500">
+            <span class="text-2xl text-indigo-900">ข้าวผัด</span> กุ้ง
+        </div>
+        <div class="font-bold text-indigo-900 mt-2 space-x-2">
+            <a href="#1" class="hover:text-yellow-500 duration-200">บทนำ</a>
+            <a href="#2" class="hover:text-yellow-500 duration-200">วัตถุดิบ</a>
+            <a href="#3" class="hover:text-yellow-500 duration-200">วิธีทำ</a>
+            <a href="#4" class="hover:text-yellow-500 duration-200">เคล็ดลับ</a>
+        </div>
+    </div>
+<div class="flex justify-center">
+    <div class="max-w-[900px] h-auto flex-row justify-items-center pt-[90px] pb-6 space-y-6">
+        <div class="text-center font-bold space-y-0.5">
+            <h1 class=" text-3xl text-indigo-800">ข้าวผัด <span class="text-4xl text-yellow-500"> กุ้ง </span>แสนอร่อย</h1>
+            <p>✨ เมนูง่าย ๆ ที่ทำได้ภายใน 15 นาที เหมาะสำหรับทุกมื้ออาหาร</p>
+        </div>
+        <img id="1" src="img/fr.jpg" alt="" class="max-h-[460px] w-auto">
+    </div>
+</div>
+
+
+    <div class=" flex-row justify-items-center space-y-1 px-32">
+        <div class="max-w-[900px] text-center">
+            <h1 class="text-3xl font-bold my-3 text-indigo-800">📌 ทำไมต้องข้าวผัดกุ้งกระเทียม?</h1>
+            <h2>ข้าวผัดกุ้งกระเทียมเป็นเมนูอาหารจานเดียวที่อร่อยและทำง่ายมาก ๆ ใช้วัตถุดิบไม่เยอะ และใช้เวลาเพียง 15 นาที เหมาะสำหรับมื้อเร่งด่วนหรือวันที่อยากทำอาหารง่าย ๆ แต่ยังคงความอร่อยแบบเต็มรสชาติ!</h2>
+        </div>
+        <div>
+            <h1 class="font-bold">✨ จุดเด่นของเมนูนี้</h1>
+            <p>✅ หอมกลิ่นกระเทียม ผสมกับกุ้งที่หวานอร่อย</p>
+            <p>✅ ใช้วัตถุดิบพื้นฐานที่หาได้ง่าย</p>
+            <p>✅ สามารถปรับสูตรเพื่อให้เหมาะกับสุขภาพได้</p>
+        </div>
+        <button id="2" class="font-bold duration-200 text-2xl text-indigo-800 hover:text-xl bg-indigo-50 hover:bg-yellow-50 hover:text-yellow-500 px-6 py-3 my-6 rounded-lg shadow-[0px_0px_0px_1px_rgba(0,0,0)]">
+            <a href="#4">เคล็ดลับทำให้อร่อยยิ่งขึ้น  ▶</a>
+        </button>
+    </div>
+
+    <div class=" py-6 text-indigo-950 bg-yellow-50 flex-row justify-items-center space-y-1 px-32">
+        <div class="max-w-[900px] text-center">
+            <h1 class="text-3xl font-bold my-3 mb-6 text-indigo-800">🥦 วัตถุดิบที่ต้องใช้</h1>
+        </div>
+
+        <div class="flex-row">
+            <div class="max-w-[600px] lg:flex flex-row lg:space-x-3 space-y-3 justify-items-center lg:justify-between items-center">
+                <img src="img/ingd.png" alt="" class="max-w-[200px] h-auto">
+                <div >
+                    <h1 class="font-bold">🛒 ส่วนประกอบหลัก</h1>
+                    <ul class="list-disc ml-5 mb-6">
+                        <li>ข้าวสวย 1 ถ้วย (ใช้ข้าวเย็นข้ามคืนจะดีที่สุด)</li>
+                            <li>กุ้งสด 5-6 ตัว (ปอกเปลือกและผ่าหลังเอาเส้นดำออก)</li>
+                            <li>กระเทียมสับ 1 ช้อนโต๊ะ</li>
+                            <li>ไข่ไก่ 1 ฟอง</li> 
+                            <li>น้ำมันพืช 1 ช้อนโต๊ะ</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="3" class="max-w-[600px] lg:flex flex-row lg:space-x-3 space-y-3 items-center">
+                <div class="flex justify-center">
+                    <img src="img/ingd2.jpg" alt="" class="max-w-[200px] h-auto">
+                </div>
+                
+                <div>
+                    <h1 class="font-bold">🍶 เครื่องปรุงรส:</h1>
+                    <ul class="list-disc ml-5">
+                        <li>ซอสปรุงรส 1 ช้อนชา</li>
+                            <li>น้ำปลา 1/2 ช้อนชา</li>
+                            <li>น้ำตาลทราย 1/2 ช้อนชา</li>
+                            <li>พริกไทยป่น 1/4 ช้อนชา</li> 
+                            <li>ต้นหอมซอย 1 ช้อนโต๊ะ</li>
+                    </ul>
+                </div>
+        </div>
+        </div> 
+    </div>
+
+    <div class="flex-row justify-items-center mt-6 space-y-3 px-32">
+        <div class="text-3xl font-bold text-center mb-6">
+            <h1 class="text-indigo-800"">🍳 วิธีทำข้าวผัดกุ้งกระเทียม</h1>
+
+        </div>
+        <div class="flex space-x-3 justify-between w-max-[500px] h-auto items-center">
+            <div class="text-9xl font-bold">
+                <h1 class="text-yellow-500">1</h1>
+            </div>
+            <div class=" py-3 px-3 rounded-xl shadow-[0px_0px_0px_1px_rgba(0,0,0)] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0)] duration-200 flex-row items-center space-y-1 ">
+                <h1 class="font-bold text-xl">👨‍🍳 ตั้งกระทะและเจียวกระเทียมให้หอม</h1>
+                <ul class="list-disc ml-5">
+                    <li>เปิดไฟกลาง ใส่น้ำมันพืชลงไป</li>
+                    <li>ใส่กระเทียมสับลงไป ผัดจนเหลืองหอม</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex space-x-3 justify-between max-w-[500px] h-auto items-center">
+            <div class=" py-3 px-3 rounded-xl shadow-[0px_0px_0px_1px_rgba(0,0,0)] hover:shadow-[-5px_5px_0px_0px_rgba(0,0,0)] duration-200 flex-row items-center space-y-1 ">
+                <h1 class="font-bold text-xl">🦐 ผัดกุ้งให้สุกกำลังดี</h1>
+                <ul class="list-disc ml-5">
+                    <li>ใส่กุ้งสดลงไป ผัดจนสีเริ่มเปลี่ยนเป็นส้ม</li>
+                    <li>ตักขึ้นพักไว้</li>
+                </ul>
+            </div>
+            <div class="text-9xl font-bold">
+                <h1 class="text-yellow-500">2</h1>
+            </div>
+        </div>
+
+        <div class="flex space-x-3 justify-between max-w-[500px] h-auto items-center">
+            <div class="text-9xl font-bold">
+                <h1 class="text-yellow-500">3</h1>
+            </div>
+            <div class=" py-3 px-3 rounded-xl shadow-[0px_0px_0px_1px_rgba(0,0,0)] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0)] duration-200 flex-row items-center space-y-1 ">
+                <h1 class="font-bold text-xl">🍳 ใส่ไข่และข้าว ผัดให้เข้ากัน</h1>
+                <ul class="list-disc ml-5">
+                    <li>ตอกไข่ลงไป ใช้ตะหลิวคนให้ไข่แตก</li>
+                    <li>ใส่ข้าวสวยลงไป ผัดให้เข้ากันกับไข่</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex space-x-3 justify-between max-w-[500px] h-auto items-center">
+            <div class=" py-3 px-3 rounded-xl shadow-[0px_0px_0px_1px_rgba(0,0,0)] hover:shadow-[-5px_5px_0px_0px_rgba(0,0,0)] duration-200 flex-row items-center space-y-1 ">
+                <h1 class="font-bold text-xl">🧂 ปรุงรสและใส่กุ้งกลับลงไป</h1>
+                <ul class="list-disc ml-5">
+                    <li>ใส่ซอสปรุงรส น้ำปลา น้ำตาล และพริกไทย</li>
+                    <li>ใส่กุ้งที่ผัดไว้ก่อนหน้านี้กลับลงไป</li>
+                </ul>
+            </div>
+            <div class="text-9xl font-bold">
+                <h1 class="text-yellow-500">4</h1>
+            </div>
+        </div>
+
+        <div class="flex space-x-3 justify-between w-max-[500px] h-auto items-center">
+            <div class="text-9xl font-bold">
+                <h1 class="text-yellow-500">5</h1>
+            </div>
+            <div class=" md:pr-32 py-3 px-3 rounded-xl shadow-[0px_0px_0px_1px_rgba(0,0,0)] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0)] duration-200 flex-row items-center space-y-1 ">
+                <h1 class="font-bold text-xl">🌿 ตกแต่งและเสิร์ฟ</h1>
+                <ul class="list-disc ml-5">
+                    <li>โรยต้นหอมซอยด้านบน</li>
+                    <li>พร้อมเสิร์ฟ!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="4" class="flex-col justify-items-center mt-6 py-6 bg-indigo-50 px-32">
+        <div>
+            <div>
+                <h1 class="font-bold text-3xl mb-6 justify-items-center text-indigo-800">💡 เคล็ดลับทำให้อร่อยยิ่งขึ้น</h1>
+            </div>
+            <div class="flex items-center space-x-3">
+                <h1 class="text-3xl">✅</h1>
+                <p><span class="font-bold">ใช้ข้าวเย็นข้ามคืน</span> ข้าวจะเป็นเม็ดสวย ไม่แฉะ</p>
+            </div>
+            <div class="flex items-center space-x-3">
+                <h1 class="text-3xl">✅</h1>
+                <p><span class="font-bold">ใช้กุ้งสดแทนกุ้งแช่แข็ง</span> จะได้รสชาติหวานกว่า
+                </p>
+            </div>
+            <div class="flex items-center space-x-3">
+                <h1 class="text-3xl">✅</h1>
+                <p><span class="font-bold">เพิ่มไข่ดาวหรือแตงกวาเป็นเครื่องเคียง</span> ช่วยให้มื้ออาหารสมบูรณ์ยิ่งขึ้น</p>
+            </div>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
